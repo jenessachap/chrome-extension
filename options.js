@@ -1,7 +1,8 @@
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
-const presetButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"];
+let addQuote = document.getElementById("addQuote").Value;
 
+//want to create functionalty to add a new quote to the quotes object in popup.js
 // Reacts to a button click by marking marking the selected button and saving
 // the selection
 function handleButtonClick(event) {
