@@ -1,4 +1,3 @@
-// Initialize button with users's prefered color
 const quotes = {
   0: "DO IT!!!",
   1: "You got this!!!",
@@ -17,10 +16,7 @@ let changeQuote = document.getElementById("changeQuote");
 
 
 changeQuote.addEventListener('click',() => {
-    // if (i >= quotes.length) i = 0;
     changeQuote.innerHTML = quotes[Math.floor(Math.random() * Object.keys(quotes).length)];
     console.log(Math.floor(Math.random() * quotes.length), quotes.length)
 })
-// The body of this function will be execuetd as a content script inside the
-// current page
 
