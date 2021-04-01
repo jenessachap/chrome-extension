@@ -5,8 +5,8 @@ const quotes = {
   2: "You are learning.",
   3: "You can do hard things.",
   4: "You're so much stronger than your excuses.",
-  5: "Don't Quit.",
-  6: "Don't Limit yourself.",
+  5: "Don't quit.",
+  6: "Don't limit yourself.",
   7: "Your passion is waiting for your courage to catch up.",
   8: "You are worthy.",
   9: "You are enough.",
@@ -15,23 +15,6 @@ const quotes = {
 
 let changeQuote = document.getElementById("changeQuote");
 
-
-
-
-// chrome.storage.sync.get("color", ({ color }) => {
-//   changeColor.style.backgroundColor = color;
-// });
-
-// // When the button is clicked, inject setPageBackgroundColor into current page
-// changeColor.addEventListener("click", async () => {
-//   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-
-
-//   chrome.scripting.executeScript({
-//     target: { tabId: tab.id },
-//     function: setPageBackgroundColor,
-//   });
-// });
 
 changeQuote.addEventListener('click',() => {
     // if (i >= quotes.length) i = 0;
